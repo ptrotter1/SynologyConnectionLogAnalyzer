@@ -30,7 +30,8 @@ Warning,Connection,2024/05/16 13:00:52,Z1804045,User [Z1804045] from [73.51.241.
 ```
 
 ### Example
-This will write to a file all IPs that have failed to log in at least 100 times over the last 30 days.
+This will write to a file all IPs that have failed to log in at least 100 times over the last 30 days. This file
+can then be directly imported into Synology DSM as a block list.
 ```bash
 .\SynologyConnectionLogAnalyzer.exe -f .\connectlog_2024-5-16-14_13_9.csv --days-back 30 --at-least 100 > abusive-ips.txt
 ```
