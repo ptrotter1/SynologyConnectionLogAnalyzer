@@ -1,0 +1,25 @@
+﻿# Visual Studio files
+.vs/
+*.vspscc
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# ReSharper
+_ReSharper*/
+
+# Rider
+.idea/
+
+# NuGet
+packages/
+
+# Build results
+bin/
+obj/
+
+# Other generated files
+*.log
+*.backup
+*~
